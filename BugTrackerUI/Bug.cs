@@ -11,6 +11,7 @@ namespace BugTrackerUI
         public int Id { get; set; }
 
         [Required]
+        [MinLength(10)]
         public string Title { get; set; }
 
         [Required]
